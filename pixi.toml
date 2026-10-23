@@ -1,0 +1,12 @@
+[workspace]
+channels = ["conda-forge", "bioconda"]
+name = "bulk_rna_seq"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+fastq-dl = ">=4.0.1,<5"
+salmon = ">=2.8.0,<3"
+fastqc = ">=0.13.0,<0.14"
